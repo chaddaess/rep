@@ -1,0 +1,58 @@
+
+
+body 
+{
+    background-image: linear-gradient(to right, rgb(248, 201, 209) , rgb(145, 228, 239));
+} 
+.flexbox
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    flex-wrap: wrap;
+}
+.flexbox a
+{
+    font-family: Lexend; 
+    font-weight: bold; 
+    color: #263D5A;
+    text-decoration:none ;
+    font-size: medium;
+} 
+
+.Button 
+{
+    border: 1px solid transparent;
+    border-radius: 6px 6px 6px 6px;
+    background-image: linear-gradient(to right, rgb(240, 106, 189) , rgb(226, 142, 96));
+}
+
+.Button a 
+{
+    color:white;
+} 
+
+.flexbox .title
+{
+    font-family: Lexend;
+    font-weight: bold; 
+    font-size: larger;
+    font-style: unset;
+    color: #263D5A;
+} 
+
+.a-transparent-box 
+{
+  font-style: Lexend;
+  padding-left: 70 px;
+  border: 1px black; 
+  border-radius: 6px 6px 6px 6px; 
+  /*filter: blur(4px);*/
+  width: 170 px;
+  height:120 px;
+  margin-left: 30%;
+  margin top: 20%;
+  
+
+}
