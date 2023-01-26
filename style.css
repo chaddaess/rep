@@ -48,7 +48,7 @@ body
 .a-transparent-box 
 {
   
-  border: 1px black solid ; 
+  border: 1px white solid ; 
   width: 50% ;
   height:90%;
   border-radius: 30px;
@@ -125,4 +125,16 @@ span
     
     transform:translateY(0.1cm);
     transition: 0.8s;
+}  
+
+img
+{
+  border: 1px white solid ; 
+  width: 50% ;
+  height:80%;
+  border-radius: 30px;
+  margin-left: 50%;
+  blur
+  position: center;
 }
+
