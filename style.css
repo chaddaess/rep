@@ -26,6 +26,9 @@ body
     border: 1px solid transparent;
     border-radius: 6px 6px 6px 6px;
     background-image: linear-gradient(to right, rgb(240, 106, 189) , rgb(226, 142, 96));
+    position:sticky;
+    top:0;
+
 }
 
 .Button a 
@@ -44,15 +47,82 @@ body
 
 .a-transparent-box 
 {
-  font-style: Lexend;
-  padding-left: 70 px;
-  border: 1px black; 
-  border-radius: 6px 6px 6px 6px; 
-  /*filter: blur(4px);*/
-  width: 170 px;
-  height:120 px;
-  margin-left: 30%;
-  margin top: 20%;
+  
+  border: 1px black solid ; 
+  width: 50% ;
+  height:90%;
+  border-radius: 30px;
+  filter: blur(3.5px); 
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+  margin-left: 10%;
+  position: center;
   
 
+  
+
+}
+
+
+h1
+{
+    font-style: Lexend;
+    padding-left: 230px;
+    font-size: 70px;
+    font-weight: bolder;
+    padding-top: 60px;
+    position:absolute;
+    color: #263D5A;
+}
+
+
+h1 p 
+{
+    font-style: Lexend;
+    font-size: 20px;
+    font-weight: lighter;
+    position:absolute;
+    color: #263D5A;
+    text-align: justify;
+} 
+
+
+span 
+{
+    font-size:  80px;
+} 
+
+.Button2 
+{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(240, 106, 189) , rgb(226, 142, 96)); 
+    height:1cm; 
+    width:4cm; 
+    margin-left:14%;
+    position: absolute;
+    margin-top: 33%;
+    
+}
+
+.Button2 a
+{
+    color:white; 
+    text-align: center;
+    font-size: 120%; 
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 34px;
+    padding-bottom: 20px; 
+    
+}
+
+
+
+
+
+.Button:hover 
+{
+    
+    transform:translateY(0.1cm);
+    transition: 0.8s;
 }
