@@ -10,8 +10,10 @@ h1
 } 
 
 body 
-{   background-image: url("bgf.webp");
+{   background-image: url("ng.webp");
     background-color: aliceblue;
+    background-size: cover;
+    
 }
  
 
