@@ -1,0 +1,85 @@
+h1
+{   border: 1px transparent ;
+    text-align: center;
+    color: darkblue; 
+    font-family: Lexend; 
+    font-size: 60px; 
+    font-weight:bold;
+    text-decoration: none;
+   
+} 
+
+body 
+{   background-image: url("bgf.webp");
+    background-color: aliceblue;
+}
+ 
+
+.flexbox
+{   margin-top: 5cm;
+    display: flex; 
+    justify-content: space-evenly;
+    flex-direction: row;
+    max-width: 1540px;  
+    
+
+    
+} 
+
+.flexbox h 
+{
+    font-size: 30px; 
+    color:darkblue; 
+    font-weight: bold; 
+    text-align:center;
+    font-family:Lexend;  
+    position: absolute;
+    padding-left: 1.6cm;
+  
+} 
+
+.flexbox p 
+{
+    text-align: center;
+    font-style: oblique; 
+    color: rgb(60, 58, 58);
+    font-size: 20px;
+    position: absolute;
+    padding-top: 1cm;
+}  
+
+
+.Box
+{
+    border: 1px transparent solid;
+    box-shadow: 2px black; 
+    border-radius: 30px; 
+    width:35cm; 
+    height: 10cm;
+    backdrop-filter: blur(4px);
+    background-color: azure;
+    opacity: 0.3;
+    position: absolute;
+    margin-left: 2.7cm;
+
+    
+}
+
+.Parent
+{
+    position:relative;
+} 
+
+
+.pic
+{
+    padding-left: 2cm;
+    border-radius: 100%;
+    
+} 
+
+.pic3
+{
+    padding-left: 2cm;
+  
+}  
